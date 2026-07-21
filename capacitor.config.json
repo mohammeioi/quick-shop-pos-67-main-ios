@@ -1,0 +1,25 @@
+{
+  "appId": "com.market.management",
+  "appName": "Market Management",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_notification",
+      "iconColor": "#488AFF"
+    }
+  },
+  "android": {
+    "overScrollMode": "never"
+  }
+}
